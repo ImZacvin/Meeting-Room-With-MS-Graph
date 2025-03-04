@@ -9,7 +9,7 @@ Python version 3.x.x
 Fill the client id, client secret in credentials.json.
 
 Change the client id to your id, then redirect the link.
-https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=yourclientid&response_type=code&redirect_uri=http://localhost:5000/callback&response_mode=query&scope=User.Read Calendars.Read offline_access&state=12345
+"https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=yourclientid&response_type=code&redirect_uri=http://localhost:5000/callback&response_mode=query&scope=User.Read Calendars.Read offline_access&state=12345"
 
 The link will open a new window like this :
 http://localhost:5000/callback?code=thecodegenerated&state=12345
